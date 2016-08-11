@@ -1,0 +1,146 @@
+Version 0.6.3
+14-Jan-2006
+Added ability to use pear and smarty files outside of publi webspace, updated install process to reflect this
+
+Version 0.6.2
+22-Nov-2005
+Security fix
+
+Version 0.6.1
+10-Feb-2005
+Added Jokai Fan to install credits
+Changed PEAR install process to add to the start of the ini_setting for 'install_path' to avoid problems made by incorrect open_basedir restriction configurations
+Changed stack browse image to be transparent background and reversed the direction of the blocks for stackOld.gif
+Added ability to display blocks in a table instead of a list (set #guestblockForm #guestblockSelect margin to 0 0 -5px 0 for this)
+Fixed syntax error in stack building
+Added block(s) in a stack title to the date spans
+Fixed bug that cloud and arrow images where not using the installPath
+Added a span limiter safety feature
+Added ability to record for each block if it was SELECT, RANDOM or an OVERRIDE (from an easter egg block). Not yet decided how to display this information
+
+
+Version 0.6
+01-Feb-2005
+
+Fixed bug in importing if there were no blocks already installed
+Added bucket management
+Added password reset
+Changed Guestblock container elements
+Fixed deleteing last block in a stack now also deletes the stack reference
+Fixed a stack is now not automatically created if no stacks currently exist, stack is only created when the first block is laid
+Changed block class to accept and modify the url and message entered by layer
+Changed differentSky block to change url to differentsky.com
+Added 'auto' ability to guestblock to reduce code needed to invoke it
+Changed code in index.php (reduced) and no longer use Smarty templates
+Changed numerous css elements
+Changed spam and bad words are now kept on a separte line and vastly speeded up checking algorithm. ip address now also checked
+Changed now you need to blank out the flood control box to turn it off, rather than set to zero
+Changed install proceedure to take adminEmail
+Added new blueprint logo
+Added blueprint block
+Changed version info moved into header and added link to guestblock.com
+Added if a block type is deleted then stacks made only of that block type are also deleted
+Fixed bug in admin logon details updating
+Fixed bug causing incorrect image state for blocks with special image states when at the top of a stack
+Fixed bug in restoreDefaults() function for block code preventing correct clock block imgae being generated
+Changed Stats class functions to allow image path to be set
+Changed stack class to not use inline bold tags
+Added popup formatting to guestblock.css
+Added automatic adding of ip address to spam filter if a block triggers the filter
+Added list of words from moderated blocks as possible entries to current spam filter
+Changed guestblock code so that it can be called from outside of the installation directory
+Fixed bug in bucket editing not updaing contained block bucket reference
+Fixed bug in stack browser not using time zone offset
+Added upgrade feature
+Changed bucket management behaviour
+Removed debug output from security settings
+Added changelog to distro
+Added RGB block by Thorsten
+Added multiple optimised block graphics by Thorsten
+Added multiple optimised general image graphics by Thorsten
+
+
+Version 0.5
+21-Nov-2004
+
+Changed deletion of block types. Any types can now be deleted (including ones with blocks of that type laid, such blocks are also deleted)
+Fixed goal block not to show a goal in display mode
+Changed function getLatestBlocks of guestblock.class to reflect updated file system structure
+Changed css file to resolve the issue of IE / firefox having different spaces between the blocks
+Changed guestblock.class.php no longer inserts break line tags into guestblock form
+Changed guestblock.class.php code to use phpdoc commenting
+Added jackolantern block
+Added USA block
+Fixed bug in jackolanern block declaring itself as foolsgoldblock
+Changed foolsgold block install to set code=TRUE
+Fixed delting of old flood control entries
+Added flood control draught time (draught time is the time until flood control is no longer active for stated ip address)
+Changed addblock function to return a status array with more detail in
+Added stats.class.php
+Removed from guestblock.class.php functions that can be done elsewhere
+Added restoreDefaults() function to block.class.php so that imageState and other default vars are reset after a custom image/status is created for a block
+Changed status vars to 'STACK','DISPLAY','ACTIVE','INERT' for block class
+Changed all blocks classes with custom construct() functions to incorporate restoreDefaults and new status vars
+Removed some code from /index.php and added it to guestblock.class.php to reduce code needed to invoke guestblock
+Fixed bug in guestblock navigation links
+Changed all $_SESSION vars to use prefix gb_
+Added retrospective filtering for bad words and spam words
+Changed css and design to match guestblock.com approach
+Added debug output to settingsSecurity file in an attempt to ctach reported bug of username/password not being updated that currently cannot reproduce.
+Added differentSky block
+Changed admin menu and design
+Added notion of 'buckets' to organise block types
+
+
+Version 0.4
+29-Aug-2004
+
+Added data checking feature
+Changed file system structure. All files related to a block type are grouped in the same folder in a master folder called blocks
+Added block type browser
+Added block type editor
+Added adminFooter template
+
+
+Version 0.3.2
+29-Aug-2004
+
+Added changing the flood control clears the flood table
+Fixed bug in flood control timings
+
+
+Version 0.3.1
+28-Aug-2004
+
+Fixed spam and bad word searches are no longer case sensitive
+Fixed Approve all checkbox to correctly accept new setting
+Fixed bug in blocks.class.php to accept passed database object reference
+Removed style.css, consoladated into guestblock.css which is better commented
+Added Before You Start information to first install page
+Added back links to pages where an error is encountered in an install
+Added guestblockBrowse div to home.tpl to contain the elements used to browse the stacks
+Added activate field to types table to allow block types to be deactivated instead of deleted
+Added home and info links to admin section
+Added images for home and info sections
+Added logout option to home admin section
+Added view your guestblock option to home admin section
+Added ability to offset Guestblock time from hosting server time
+Removed some of the unused Webfroot block images
+Removed some of the unused images in the blocks directory
+Added local stack time to guestblock page
+
+
+Version 0.3
+28-Aug-2004
+
+changelog started
+Fixed session variable for the pear location not being passed between installation pages for some users.
+Fixed separater for include pathways to mimick the system's PATH environment variable separater.
+
+
+Version 0.2
+27-Aug-2004
+
+
+Version 0.1
+23-Jul-2004

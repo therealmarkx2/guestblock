@@ -141,7 +141,7 @@ switch($action){
 					  KEY type (type),
 					  KEY stack (stackid),
 					  KEY name (name(10))
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 					
 					if (DB::isError($result)) {
 						$tableBlocks['create'] = 'FAIL';
@@ -158,7 +158,7 @@ switch($action){
 					  value text,
 					  PRIMARY KEY  (blockid,setting),
 					  KEY blockid (blockid)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 					
 					if (DB::isError($result)) {
 						$tableBlocksData['create'] = 'FAIL';
@@ -174,7 +174,7 @@ switch($action){
 					  name varchar(100) NOT NULL,
 					  description varchar(255) default NULL,
 					  PRIMARY KEY  (bucket)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 
 					if (DB::isError($result)) {
 						$tableBuckets['create'] = 'FAIL';
@@ -190,7 +190,7 @@ switch($action){
 					  ip varchar(15) NOT NULL default '',
 					  timestamp datetime default NULL,
 					  PRIMARY KEY  (floodid)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 
 					if (DB::isError($result)) {
 						$tableFlood['create'] = 'FAIL';
@@ -205,7 +205,7 @@ switch($action){
 					  setting varchar(50) NOT NULL default '0',
 					  value text,
 					  PRIMARY KEY  (setting)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 
 					if (DB::isError($result)) {
 						$tableSettings['create'] = 'FAIL';
@@ -220,7 +220,7 @@ switch($action){
 					  stackid smallint(10) unsigned NOT NULL auto_increment,
 					  date date NOT NULL default '0000-00-00',
 					  PRIMARY KEY  (stackid)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 
 					if (DB::isError($result)) {
 						$tableStacks['create'] = 'FAIL';
@@ -241,7 +241,7 @@ switch($action){
 					  active enum('TRUE','FALSE') NOT NULL default 'TRUE',
 					  PRIMARY KEY  (type),
 					  KEY bucket (bucket)
-					) TYPE=MyISAM;");
+					) ENGINE=MyISAM;");
 
 					if (DB::isError($result)) {
 						$tableTypes['create'] = 'FAIL';

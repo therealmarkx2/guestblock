@@ -1,0 +1,261 @@
+body, html {margin:0 auto;font:Verdana,Arial,Sans-serif;}
+
+#version{float:right;color:#fff; padding-left:25px;font:.8em/1.4em Verdana,Arial,Sans-serif;padding-top:2px}
+#version a{color:#fff;text-decoration:none;}
+
+#header {
+background-color:#5999BF;
+padding:10px 15px 5px 15px;
+height:40px;}
+#header h1 {
+float:left;
+padding:0;
+margin:0;
+letter-spacing:-1px;
+font:2em/1.2em Georgia,Serif;
+color:#fff;
+}
+
+h1, h2, h3{
+letter-spacing:-1px;
+margin:0;
+color:#1581A6;
+word-spacing: 2px;
+text-transform:capitalize;
+}
+
+h1 {
+font:1.5em/1.2em Georgia,Serif;
+padding:2px 5px 2px 0px;
+}
+
+h2 {
+font:1.25em/1.2em Georgia,Serif;
+padding:2px 0px;}
+
+h3 {
+font:1em/1.2em Georgia,Serif;
+padding:2px 0px;}
+
+
+#content h1 a,
+#content h2 a{
+text-decoration:none;
+}
+
+a:link, a:active{color:#1581A6;text-decoration:underline;}
+a:visited{color:#52A4C4;text-decoration:underline;}
+a:hover {color:#D6AA77;text-decoration:underline;}
+
+#sidebar-content p{
+font:.9em/1.2em small trebuchet ms,verdana,sans-serif;
+color:#777777;
+margin:0;
+padding:2px 2px 10px 0px;
+}
+
+p{
+font:1em/1.4em small trebuchet ms,verdana,sans-serif;
+padding:2px 5px 10px 0px;
+color:#444444;
+margin:2px 2px 2px 0px;}
+
+span.small {font:80%/1.2em Verdana,Arial,Sans-serif;}
+blockquote p{margin:-10px 0px 5px;font:100%/1.2em "Courier New",Courier,monospace;padding:0;}
+img{border:0}
+
+body.install #content{
+	margin:0em auto;
+}
+
+#content {
+	clear : both;
+	width: 98%;
+	margin:2.8em auto;
+	text-align:left;
+}
+#sidebar {
+	float: left;
+	width: 26%;
+	padding:10px 0 0 0;
+}
+#sidebar-content {
+	margin:0 1% 0 0; 
+	padding: 0;
+}
+#main {
+	margin:0 0 0 27%;
+	padding:10px 0 0 0;
+}
+#main-content {
+	margin:0; 
+	padding: 0;
+} 
+	  
+	   hr.cleaner {
+      clear:both;
+      height:1px;
+      margin: -1px 0 0 0; padding:0;
+      border:none;
+      visibility: hidden;
+      }
+
+
+.green {color:#78B729}
+.red {color:#B25043}
+
+
+
+
+#content ul {list-style-type:none;font:80%/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+#content ul li {list-style-image:url('../images/admin/bulletBlue.gif')}
+#content ul.error li {list-style-image:url('../images/admin/bulletRed.gif')}
+
+
+
+
+form.install input {width:250px;}
+
+form h2 {margin-top:20px;}
+
+span {font:1em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+form span {font:75%/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+
+#logon  {width:350px;padding-left:25px}
+fieldset {border:0px;border-top:1px solid #ccc;border-left:1px solid #ccc;padding:5px;}
+
+
+label{width:9em;font:.9em/1.4em small trebuchet ms,verdana,sans-serif;float:left;text-align:right;margin-right:5px;color:#444;}
+
+legend {
+letter-spacing:-1px;
+word-spacing: 2px;
+text-transform:capitalize;
+background-color:#fff;
+border:0;
+color:#1581A6;
+padding:2px 5px 2px 5px;
+font:1.4em/1.2em Georgia,Serif;}
+
+
+input.submit{font:1em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+
+.row {padding :5px;}
+tr.row1{background-color:#D9E8FA;}
+tr.row2{background-color:#ABC8E0;}
+tr.row3{background-color:#B25043;}
+tr.row4{background-color:#C8766A;}
+
+td {padding:2px 5px 2px 5px;font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#404040;border-top:1px solid #fff;border-bottom:1px solid #fff;}
+
+td.small {font:70%/1.2em small trebuchet ms,verdana,sans-serif;}
+td.white{font:70%/1.2em small trebuchet ms,verdana,sans-serif;background-color:#ffffff;padding:1px;}
+
+table.stack {width:95%;display:table;border-collapse:collapse;border-spacing:1;margin-bottom:20px;}
+
+#creditHolder {margin:15px 0px 25px 0px;}
+#credit {padding:8px; margin-left:auto;margin-right:auto;width:180px;font:.8em/1em small trebuchet ms,verdana,sans-serif;color:#444;}
+#credit img{float:left;margin-right:5px;border:0;}
+#credit a{text-decoration:none;color:#444;}
+
+input{font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+select{font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+input.long{width:300px;}
+input.short{width:90px;}
+textarea.long{width:400px;height:100px;border:1px solid #ccc;font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+
+/* install menu */
+div#menu ul, div#menu li {display:block;list-style-image:none;}
+div#menu ul {list-style-type:none;margin:0;padding:0;}
+div#menu li {font:2.2em/1.5em Verdana,Arial,Sans-serif;padding:2px;color:#1581A6;}
+div#menu img{padding-right:5px;}
+div#menu li a{text-decoration:none;}
+
+/* navigation menu */
+#menu {
+	margin : 0;
+	padding-bottom : 19px;
+	padding-left : 10px;
+	font: normal 12px verdana, serif;
+}
+#menu li img{
+	border:0;
+	padding:1px 4px 0px 0px;
+}
+#menu ul, #menu li	{
+	display : inline;
+	list-style-type : none;
+	margin : 0;
+	padding : 0;
+}	
+#menu a:link, #menu a:visited	{
+	background : #E8EBF0;
+	border-left : 1px solid #ccc;
+	border-right : 1px solid #ccc;
+	border-bottom : 1px solid #ccc;
+	color : #666;
+	float : left;
+	font-size : small;
+	font-weight : normal;
+	line-height : 14px;
+	margin-right : 8px;
+	padding:5px;
+	text-decoration : none;
+}
+#menu a:link.active, #menu a:visited.active	{
+	background : #fff;
+	border-top : 1px solid #fff;
+	color : #000;
+}
+#menu a:hover	{
+	color : #000;
+}	
+body.home #menu li#home a, 
+body.stacks #menu li#stacks a,
+body.settings #menu li#settings a,
+body.info #menu li#info a,
+body.blocks #menu li#blocks a{
+	background : #5999BF;
+	border-top : 1px solid #5999BF;
+	border-left : 1px solid #1C7690;
+	border-right : 1px solid #1C7690;
+	border-bottom : 1px solid #1C7690;
+	color : #fff;
+}
+#menu #homeMenu,
+#menu #stacksMenu,
+#menu #settingsMenu,
+#menu #infoMenu,
+#menu #blocksMenu{
+	display : none;
+	width: 90%;
+}
+body.home #menu ul#homeMenu, 
+body.stacks #menu ul#stacksMenu,
+body.settings #menu ul#settingsMenu,
+body.info #menu ul#infoMenu,
+body.blocks #menu ul#blocksMenu{
+	display : block;
+	left : 10px;
+	position : absolute;
+	top : 95px;
+}
+body.home #menu ul#homeMenu a,
+body.stacks #menu ul#stacksMenu a,
+body.settings #menu ul#settingsMenu a,
+body.info #menu ul#infoMenu a,
+body.blocks #menu ul#blocksMenu a{
+	background : #fff;
+	border : none;
+	border-left : 1px solid #ccc;
+	color : #999;
+	
+	font-weight : normal;
+	line-height : 12px;
+	margin-right : 4px;
+	padding : 2px 10px 2px 10px;
+	text-decoration : none;
+}
+#menu ul a:hover {
+	color : #000 !important;
+}

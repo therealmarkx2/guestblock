@@ -1,0 +1,29 @@
+body,html {margin:0 auto;font:100%/1.4em small trebuchet ms,verdana,sans-serif;}
+#header {padding:10px 15px 5px;height:40px;background:#5999BF}
+#header h1 {float:left;padding:0;margin:0;letter-spacing:-1px;font:2em/1.2em Georgia,Serif;color:#fff}
+h1,h2,h3 {letter-spacing:-1px;margin:0;color:#1581A6;word-spacing:2px;text-transform:capitalize}
+h1 {font:1.5em/1.2em Georgia,Serif;padding:2px 5px 2px 0}
+h2 {font:1.25em/1.2em Georgia,Serif;padding:2px 0}
+h3 {font:1em/1.2em Georgia,Serif;padding:2px 0}
+#content h1 a,#content h2 a {text-decoration:none}
+a:link,a:active {color:#1581A6;text-decoration:underline}
+a:visited {color:#52A4C4;text-decoration:underline}
+a:hover {color:#D6AA77;text-decoration:underline}
+#sidebar-content p {font:85%/1.2em small trebuchet ms,verdana,sans-serif;color:#777;margin:0;padding:2px 2px 10px 0}
+p {font:100%/1.4em small trebuchet ms,verdana,sans-serif;padding:2px 5px 10px 0;color:#444;margin:2px 2px 2px 0}
+span.small {font:80%/1.2em Verdana,Arial,Sans-serif}
+blockquote p {margin:-10px 0 5px;font:100%/1.2em "Courier New",Courier,monospace;padding:0}
+img {border:0}
+body.install #content {margin:0 auto}
+#content {width:98%;margin:1em auto;text-align:left}
+#sidebar {float:left;width:27%;margin:0;padding:0}
+#sidebar-content {margin:2px;padding:0}
+#main {margin:0 0 0 27%;padding:10px 0 0}
+#main-content {margin:0;padding:0}
+hr.cleaner {clear:both;height:1px;margin:-1px 0 0;padding:0;border:none;visibility:hidden}
+.green {color:#78B729}
+.red {color:#B25043}
+#content ul {list-style-type:none;font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#777;padding:2px 10px 10px 10px;margin:2px 10px 10px 10px;}
+#content ul ul {font-size:1em}
+
+ul#aboutBlocks li{width:240px;height:100px;float:left;padding:10px}

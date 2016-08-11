@@ -1,0 +1,58 @@
+/* warnings */
+.green {color:#78B729}
+.red {color:#B25043}
+
+/* credit */
+#credit {padding:8px; width:180px;font:.8em/1em small trebuchet ms,verdana,sans-serif;color:#444;}
+#credit img{float:left;margin-right:5px;border:0;}
+#credit a{text-decoration:none;color:#444;}
+
+/* guestblock positioning */
+#guestblockContainer {margin-left:25px;}
+
+/* core guestblock stack elements */
+#guestblockContainer {font:100%/1.2em Helvetica, arial, sans-serif;position:relative;margin-bottom:10px;color:#444;}
+#guestblockContainer img {border:0}
+#guestblockContainer a {text-decoration:none}
+#guestblockContainer a.none:hover img {cursor:default}
+#guestblockContainer a:hover img {margin-left:1px}
+#guestblockContainer a:hover {display:inline}
+#guestblockContainer a:hover span.popup {position:absolute;display:inline;background-color:#FFF;border:1px solid #444;padding:2px;left:30px;width:225px}
+#guestblockContainer span.popup {display:none;color:#444;font-size:12px;}
+#guestblockContainer span.popup span.owner {font-size:14px;font-weight:bold;}
+#guestblockContainer span.popup span.time {font-size:14px;font-weight:bold;}
+#guestblockContainer span.popup span.message {font-size:14px;display:block;}
+#guestblockContainer span.popup span.subLine {padding:0;margin:0;padding-top:6px;font-size:12px;color:#777;display:block;}
+#guestblockContainer span.stackTitle {color:#DDD;font:16px/20px impact}
+#guestblockContainer span.stackTitleDay {color:#DDD;font:16px/20px impact}
+
+/* guestblock form elements */
+#guestblockForm {width:500px;}
+#guestblockForm fieldset {border:0px;border-top:1px solid #ccc;border-left:1px solid #ccc;padding:5px;}
+#guestblockForm legend {letter-spacing:-1px;word-spacing:2px;text-transform:capitalize;background-color:#fff;border:0;color:#1581A6;padding:2px 5px 2px 5px;font:1.4em/1.2em Georgia,Serif;}
+#guestblockForm label{width:50px;font:.8em/1.4em small trebuchet ms,verdana,sans-serif;float: left;text-align:left;margin-right:5px;color:#444;}
+#guestblockForm input{font:.9em/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+#guestblockForm form p {font:.8em/1.4em small trebuchet ms,verdana,sans-serif;padding-top:2px;padding-bottom:2px;color:#444;}
+#guestblockForm span {font:75%/1.4em small trebuchet ms,verdana,sans-serif;color:#444;}
+#guestblockForm p {margin:2px;padding:0;}
+#guestblockForm #name {width:150px;}
+#guestblockForm #email {width:280px;}
+#guestblockForm #url {width:280px;}
+#guestblockForm #message {width:472px;}
+#guestblockForm #submit {margin-top:10px}
+#guestblockForm .row {padding :5px;}
+#guestblockForm img{border:0}
+#guestblockForm #guestblockSelect {margin:0 0 -5px 0;padding:1px;background-color:#fff;}
+#guestblockForm #guestblockSelect img {margin:0 1px;padding:0px;border:0;height:13px;width:13px;}
+#guestblockForm #guestblockSelect input {margin:0px;padding:0px;border:0;}
+#guestblockForm #guestblockSelect ul{padding:0;margin:0 0 15px 0;}
+#guestblockForm #guestblockSelect ul li {display:inline; list-style-type:none;line-height:15px;}
+
+/* elements for browsing the guestblock */
+#guestblockBrowse {height:100px;}
+#guestblockBrowse #browse{font:90%/1.2em Verdana,Arial,Sans-serif;margin-left:50px;margin-right:40px;width:200px;float:left;height:75px;padding:5px}
+#guestblockBrowse #browse form {margin:0;padding:0;}
+#guestblockBrowse #browse form input {width:80px;}
+#guestblockBrowse #browse #format {font-size:75%;}
+#guestblockBrowse .link {font:90%/1.2em Verdana,Arial,Sans-serif;width:100px;float:left;height:75px;padding:5px}
+#guestblockBrowse hr.cleaner {clear:both; height:1px; margin: -1px 0 0 0; padding:0; border:none; visibility: hidden;}

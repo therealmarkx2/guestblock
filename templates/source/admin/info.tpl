@@ -1,0 +1,2 @@
+<h2><a href="infoCheck.php" title="open data integrity page">Data Integrity</a></h2>
+<p>Checks to make sure there aren't any problems with the data. If guestblock is spitting out errors try and run this page.</p>
