@@ -4,6 +4,8 @@ Initial github commit
 Changed install to ENGINE=MyISAM from TYPE=MyISAM
 Corrected typos in /admin/reset.php
 
+All code prior to this by Matthew Hadley at Differentsky.com
+
 Version 0.6.3
 14-Jan-2006
 Added ability to use pear and smarty files outside of publi webspace, updated install process to reflect this
