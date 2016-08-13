@@ -1,3 +1,11 @@
+Version 0.6.5
+13-Aug-2016
+Added all remaining blocks to bring total blocks to 120
+TODO
+Remove guestblock credit link as site is defunct
+Create some sort of docs
+
+
 Version 0.6.4
 11-Aug-2016
 Initial github commit
@@ -8,7 +16,7 @@ All code prior to this by Matthew Hadley at Differentsky.com
 
 Version 0.6.3
 14-Jan-2006
-Added ability to use pear and smarty files outside of publi webspace, updated install process to reflect this
+Added ability to use pear and smarty files outside of public webspace, updated install process to reflect this
 
 Version 0.6.2
 22-Nov-2005
